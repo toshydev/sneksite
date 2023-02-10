@@ -93,6 +93,9 @@ article {
 
 table {
   background-color: rgb(243, 245, 249);
+  position: absolute;
+  top: 40%;
+  left: 30%;
 }
 
 thead {
@@ -138,6 +141,10 @@ footer a {
   display: block;
   padding: 10px;
   transition: ease-in-out 0.25s;
+  position: fixed;
+  top: 7%;
+  left: 10%;
+  z-index: 1;
 }
 #header-link a:hover {
   filter: drop-shadow(25px 25px 5px white);
@@ -145,15 +152,28 @@ footer a {
 }
 
 #tags {
-  padding: px 0px;
+  position: relative;
 }
 
 #contact {
-  display: inline;
+  position: relative;
+  height: 10vh;
+}
+
+#socials {
+  background-color: rgb(243, 245, 249);
+  border-radius: 5px;
+  margin-top: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #biography {
   padding-bottom: 50px;
+  position: relative;
+  height: 20vh;
 }
 
 #tags h3:first-of-type::after {
