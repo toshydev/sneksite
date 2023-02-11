@@ -11,6 +11,9 @@ This is a GitHub Page. To view the complete site with styling and scripts, follo
 4. Make sure __Deploy from a branch__ is selected.
 5. Choose a branch and click __Save__.
 
+<video controls width="320" height="240">
+    <source src="/assets/howto-video.mov" type="video/webm">
+</video>
 ![HowTo Video](/assets/howto-video.mov)
 
 [x] Done!
