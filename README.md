@@ -11,6 +11,8 @@ This is a GitHub Page. To view the complete site with styling and scripts, follo
 4. Make sure __Deploy from a branch__ is selected.
 5. Choose a branch and click __Save__.
 
+![HowTo Video](/assets/howto-video.mov)
+
 [x] Done!
 
 ### You can view your GitHub Page at https://`your-github-username`.github.io/`your-repo-name`
