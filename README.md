@@ -11,11 +11,11 @@ This is a GitHub Page. To view the complete site with styling and scripts, follo
 4. Make sure __Deploy from a branch__ is selected.
 5. Choose a branch and click __Save__.
 
-<video controls>
-    <source src="/assets/howto-video.mov" type="video/mp4">
+<video controls width="1278" height="1302">
+    <source src="./assets/howto-video.mov" type="video/mp4">
 </video>
 
-![HowTo Video](/assets/howto-video.mov)
+![HowTo Video](./assets/howto-video.mov)
 
 [x] Done!
 
