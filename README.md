@@ -22,3 +22,5 @@ This is a GitHub Page. To view the complete site with styling and scripts, follo
 ### You can view your GitHub Page at https://`your-github-username`.github.io/`your-repo-name`
 
 Enjoy! 👾
+
+![Visitors](https://api.visitorbadge.io/api/VisitorHit?user=toshydev&repo=sneksite&countColor=%237B1E7A)
