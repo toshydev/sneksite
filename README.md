@@ -14,6 +14,7 @@ This is a GitHub Page. To view the complete site with styling and scripts, follo
 <video controls width="320" height="240">
     <source src="/assets/howto-video.mov" type="video/mp4">
 </video>
+
 ![HowTo Video](/assets/howto-video.mov)
 
 [x] Done!
