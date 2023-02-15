@@ -5,3 +5,9 @@
 @import "/components/projects.css";
 @import "/components/contact.css";
 @import "/components/footer.css";
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

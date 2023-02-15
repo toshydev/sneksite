@@ -53,10 +53,11 @@
   border-radius: 8px;
   grid-row: 2 / 2;
   grid-column: 1 / 3;
-  margin: 25px;
+  margin: 50px;
   transition: 0.5s;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .header__eyecatcher:hover {
@@ -65,7 +66,7 @@
 }
 
 .header__eyecatcher-picture {
-  max-width: 250px;
+  max-width: 500px;
   border-radius: 50% 0 50% 0;
   padding: 5%;
 }
@@ -78,9 +79,15 @@
 .header__eyecatcher-text {
   background: var(--bg-header);
   padding: 5%;
-  margin-right: 5%;
+  margin-right: 10%;
   border-radius: 8px;
   font-size: 1.1rem;
+}
+
+.header__arrow {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  z-index: 1;
 }
 
 @keyframes picture-shake {
