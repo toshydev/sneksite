@@ -4,125 +4,204 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Anton Roters web development portfolio web page">
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta
+      name="description"
+      content="Anton Roters web development portfolio web page"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;700&family=Tourney&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
     <title>Anton Roters - Web Dev</title>
   </head>
   <body>
-    <header>
-      <h1 id="header-link">
-        <a href="./index.html">Anton Roters</a>
-      </h1>
-      <ul id="nav-bar">
-        <li><a class="nav-link" aria-label="Go to contact information" href="#contact">Contact</a></li>
-        <li><a class="nav-link" aria-label="Go to biography information" href="#biography">Biography</a></li>
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li>
+          <a
+            class="navbar__list-link"
+            href="#about"
+            aria-label="Go to about-me section"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            class="navbar__list-link"
+            href="#projects"
+            aria-label="Go to projects section"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a
+            class="navbar__list-link"
+            href="#contact"
+            aria-label="Go to contact section"
+            >Contact</a
+          >
+        </li>
       </ul>
+    </nav>
+    <header class="header">
+      <svg class="header__background" width="100%" height="200%">
+        <pattern
+          id="pattern-circles"
+          x="0"
+          y="0"
+          width="25"
+          height="25"
+          patternUnits="userSpaceOnUse"
+          patternContentUnits="userSpaceOnUse"
+        >
+          <circle
+            id="pattern-circle"
+            cx="10"
+            cy="10"
+            r="1.6257413380501518"
+            fill="#000"
+          ></circle>
+        </pattern>
+
+        <rect
+          id="rect"
+          x="0"
+          y="0"
+          width="100%"
+          height="100%"
+          fill="url(#pattern-circles)"
+        ></rect>
+      </svg>
+      <a
+        class="header__link"
+        href="https://github.com/toshydev"
+        aria-role="Go to GitHub"
+        ><img
+          class="header__link-logo"
+          src="https://assets.codepen.io/9400027/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1672142169&width=512"
+          alt="logo"
+      /></a>
+      <h1 class="header__heading">Anton Roters</h1>
+      <figure class="header__eyecatcher">
+        <img
+          class="header__eyecatcher-picture"
+          alt="Anton spaziert am Fluss"
+          src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.6435-9/123766648_10224217032397984_7719387574347792778_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=oPshz_NSjk8AX9NqyKw&_nc_ht=scontent-muc2-1.xx&oh=00_AfDQO_Y238ddMOe10wHgIkHSh4AcyUlVKC4vJtnXP-mzMw&oe=640B3CDF"
+        />
+        <figcaption class="header__eyecatcher-text">
+          Pro-Learner, Tech Lover, Musician
+        </figcaption>
+      </figure>
     </header>
-    <section id="banner">
-      <img
-        src="https://scontent-muc2-1.xx.fbcdn.net/v/t1.6435-9/123766648_10224217032397984_7719387574347792778_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=oPshz_NSjk8AX9NqyKw&_nc_ht=scontent-muc2-1.xx&oh=00_AfDQO_Y238ddMOe10wHgIkHSh4AcyUlVKC4vJtnXP-mzMw&oe=640B3CDF"
-        alt="Anton Roters am Fluss"
-        width="250px"
-      />
-      <div class="cursor-field">
-        <div class="prompt"></div>
-        <div class="cursor"></div>
-      </div>
-    </section>
     <main>
-      <section id="tags">
-        <h3>What I Like</h3>
-        <h4>Creative</h4>
-        <ul class="interests">
-          <li>Music</li>
-          <li>Videography</li>
-          <li>Cooking</li>
-          <li>Sports</li>
-        </ul>
-        <h4>Tech</h4>
-        <ul class="interests">
-          <li>Python</li>
-          <li>Raspberry Pi</li>
-          <li>Bash Scripting</li>
-          <li>Git</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-        </ul>
-        <br />
-      </section>
-      <section id="contact">
-        <h3>Contact</h3>
-        <section id="socials">
-          <a href="https://github.com/toshydev"
-            ><img
-              alt="Github Logo"
-              src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
-              width="50px"
-          /></a>
-          <a href="https://codepen.io/toshymoshy"
-            ><img
-              alt="Codepen Logo"
-              src="https://cdn-icons-png.flaticon.com/512/7083/7083977.png"
-              width="50px"
-          /></a>
-          <a href="https://linkedin.com/in/antonroters"
-            ><img
-              alt="Linkedin Logo"
-              src="https://cdn-icons-png.flaticon.com/512/3670/3670129.png"
-              width="50px"
-          /></a>
+      <section class="about" id="about">
+        <figure class="about__eyecatcher">
+          <img class="about__eyecatcher-picture" alt="" src="" />
+          <figcaption class="about__eyecatcher-text"></figcaption>
+        </figure>
+        <section class="about__card">
+          <h2 class="about__card-heading">About me</h2>
+          <article class="about__card-article">
+            <ul class="about__card-article-list">
+              <li class="about__card-article-list-item">1</li>
+              <li class="about__card-article-list-item">2</li>
+              <li class="about__card-article-list-item">3</li>
+            </ul>
+          </article>
         </section>
       </section>
-      <br />
-      <section id="biography">
-        <h3>Biography</h3>
-        <article>
-          <p>
-            I've spent the last ten years as a classical and session musician
-            until I discovered my passion for coding. Now I'm on the verge of
-            becoming a web developer. A most exciting path!
-          </p>
-        </article>
-        <table>
-          <thead>
-            <tr>
-              <th colspan="2">Curriculum</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>2006-2012</td>
-              <td>University of Performing Arts Munich</td>
-            </tr>
-            <tr>
-              <td>2012-2021</td>
-              <td>Concertmaster for Kammeroper Munich</td>
-            </tr>
-            <tr>
-              <td>2021-2023</td>
-              <td>Creative Director for Theateracademy August Everding</td>
-            </tr>
-            <tr>
-              <td>02/2023-now</td>
-              <td>
-                Student for Web Development at
-                <span id="neuefische">neuefische</span>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+      <section class="projects" id="projects">
+        <h2 class="projects__heading">Projects</h2>
+        <figure class="projects__featured">
+          <figcaption class="projects__featured_info"></figcaption>
+        </figure>
+        <section class="projects__cardlist">
+          <section class="projects__cardlist-card">
+            <h3 class="projects__cardlist-card-heading">Quiz-App</h3>
+            <figure class="projects__cardlist-card-content">
+              <img
+                class="projects__cardlist-card-content-picture"
+                src=""
+                alt="quiz question"
+              />
+              <figcaption class="projects__cardlist-card-content"></figcaption>
+            </figure>
+          </section>
+          <section class="projects__cardlist-card">
+            <h3 class="projects__cardlist-card-heading">Composer Quotes</h3>
+            <figure class="projects__cardlist-card-content"></figure>
+          </section>
+          <section class="projects__cardlist-card">
+            <h3 class="projects__cardlist-card-heading">Markdown Previewer</h3>
+            <figure class="projects__cardlist-card-content"></figure>
+          </section>
+          <section class="projects__cardlist-card">
+            <h3 class="projects__cardlist-card-heading">Tic Tac Toe</h3>
+            <figure class="projects__cardlist-card-content"></figure>
+          </section>
+          <section class="projects__cardlist-card">
+            <h3 class="projects__cardlist-card-heading">BPM Counter</h3>
+            <figure class="projects__cardlist-card-content"></figure>
+          </section>
+          <section class="projects__cardlist-card">
+            <h3 class="projects__cardlist-card-heading">DB Ticket Parser</h3>
+            <figure class="projects__cardlist-card-content"></figure>
+          </section>
+        </section>
+      </section>
+      <section class="contact" id="contact">
+        <ul class="contact__list">
+          <li>
+            <a class="contact__list-link" href="https://github.com/toshydev"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a class="contact__list-link" href="https://codepen.com/toshymoshy"
+              >CodePen</a
+            >
+          </li>
+          <li>
+            <a
+              class="contact__list-link"
+              href="https://linkedin.com/in/antonroters"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              class="contact__list-link"
+              href="https://instagram.com/toshymoshy"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a class="contact__list-link" href="https://twitter.com/toshymoshy"
+              >Twitter</a
+            >
+          </li>
+        </ul>
       </section>
     </main>
-    <footer>
-      <a href="https://github.com/toshydev">ToshyDev</a>
-      <br />
-      <author>Anton Roters</author>
-      <address>Munich/Germany</address>
-      <aside>2023</aside>
+    <footer class="footer">
+      <ul class="footer__list">
+        <li><a class="footer__list-link"></a></li>
+        <li><a class="footer__list-link"></a></li>
+        <li><a class="footer__list-link"></a></li>
+      </ul>
+      <ul class="footer__list">
+        <li><a class="footer__list-link"></a></li>
+        <li><a class="footer__list-link"></a></li>
+        <li><a class="footer__list-link"></a></li>
+      </ul>
+      <section class="footer__brand">
+        <img class="footer__brand-logo" alt="logo" />
+        <author class="footer__brand-author"></author>
+      </section>
     </footer>
   </body>
 </html>
