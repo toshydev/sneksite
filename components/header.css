@@ -2,7 +2,8 @@
   background: gold;
   padding-top: 100px;
   height: 100vh;
-  display: grid;
+  display: none;
+  _display: grid;
   grid-template: repeat(3, 1fr) / 1fr 1fr;
   justify-content: center;
 }
