@@ -1,5 +1,6 @@
 @import "/global.css";
 @import "/components/navigation.css";
+@import "/components/progress-bar.css";
 @import "/components/header.css";
 @import "/components/about.css";
 @import "/components/projects.css";
