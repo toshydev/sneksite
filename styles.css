@@ -1,0 +1,13 @@
+@import "/global.css";
+@import "/components/navigation.css";
+@import "/components/header.css";
+@import "/components/about.css";
+@import "/components/projects.css";
+@import "/components/contact.css";
+@import "/components/footer.css";
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,43 @@
+.navbar {
+  background: var(--bg-nav);
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid var(--nav-border);
+  box-shadow: 0 2px 2px var(--nav-border);
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+  color: var(--color-nav-links);
+  gap: 15px;
+}
+
+.navbar__list li {
+  transition: 0.25s;
+}
+
+.navbar__list li:hover {
+  transform: scale(0.95);
+  color: var(--color-nav-links);
+  background: var(--bg-nav-links);
+  border-radius: 5px;
+}
+
+.navbar__list-link {
+  margin: 15px;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: inherit;
+}
