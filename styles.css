@@ -1,5 +1,9 @@
+@layer reset;
+
+@import url("/css/reset.css") layer(reset);
 @import "/global.css";
 @import "/components/navigation.css";
+@import "/components/switch.css";
 @import "/components/progress-bar.css";
 @import "/components/header.css";
 @import "/components/about.css";

@@ -1,5 +1,6 @@
 .about {
-  display: flex;
+  display: none;
+  _display: flex;
   flex-direction: row-reverse;
   align-items: center;
   width: 50vh;
