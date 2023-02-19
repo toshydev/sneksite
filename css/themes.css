@@ -1,1 +1,49 @@
 /* themes.css */
+:root {
+  --bg-body: darkgrey;
+  --bg-nav: white;
+  --bg-nav-links: lightgrey;
+  --bg-nav-icon: grey;
+  --accent: deepskyblue;
+  --bg-header: white;
+  --bg-about: ;
+  --bg-projects: ;
+  --bg-footer: ;
+  --color-nav: black;
+  --color-nav-links: black;
+  --color-header: ;
+  --color-header-links: ;
+  --color-main: ;
+  --color-main-links: ;
+  --color-footer: ;
+  --color-footer-links: ;
+  --nav-border: rgb(164, 164, 164);
+  --header-border: ;
+  --about-border: ;
+  --projects-border: ;
+  --footer-border: ;
+}
+
+.dark {
+  --bg-body: rgb(48, 48, 48);
+  --bg-nav: black;
+  --bg-nav-links: rgb(48, 48, 48);
+  --bg-nav-icon: grey;
+  --bg-header: rgb(35, 35, 35);
+  --bg-about: ;
+  --bg-projects: ;
+  --bg-footer: ;
+  --color-nav: white;
+  --color-nav-links: white;
+  --color-header: ;
+  --color-header-links: ;
+  --color-main: ;
+  --color-main-links: ;
+  --color-footer: ;
+  --color-footer-links: ;
+  --nav-border: black;
+  --header-border: ;
+  --about-border: ;
+  --projects-border: ;
+  --footer-border: ;
+}

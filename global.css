@@ -1,51 +1,13 @@
-:root {
-  --bg-nav: white;
-  --bg-nav-links: rgb(182, 249, 255);
-  --bg-header: white;
-  --bg-about: ;
-  --bg-projects: ;
-  --bg-footer: ;
-  --color-nav: ;
-  --color-nav-links: black;
-  --color-header: ;
-  --color-header-links: ;
-  --color-main: ;
-  --color-main-links: ;
-  --color-footer: ;
-  --color-footer-links: ;
-  --nav-border: rgb(164, 164, 164);
-  --header-border: ;
-  --about-border: ;
-  --projects-border: ;
-  --footer-border: ;
-}
+/* global.css */
+@layer defaults {
+  body {
+    background: var(--bg-body);
+  }
 
-.dark {
-  --bg-nav: black;
-  --bg-nav-links: rgb(48, 48, 48);
-  --bg-header: rgb(35, 35, 35);
-  --bg-about: ;
-  --bg-projects: ;
-  --bg-footer: ;
-  --color-nav: ;
-  --color-nav-links: white;
-  --color-header: ;
-  --color-header-links: ;
-  --color-main: ;
-  --color-main-links: ;
-  --color-footer: ;
-  --color-footer-links: ;
-  --nav-border: black;
-  --header-border: ;
-  --about-border: ;
-  --projects-border: ;
-  --footer-border: ;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
+  @media screen and (min-width: 1200px) {
+    body {
+      width: 1200px;
+      margin: auto;
+    }
+  }
 }
