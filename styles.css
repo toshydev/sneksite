@@ -1,18 +1,14 @@
-@layer reset;
+@layer reset, typography, defaults;
 
 @import url("/css/reset.css") layer(reset);
+@import url("/css/typography.css") layer(typography);
+@import url("/css/themes.css") layer(themes);
+
 @import "/global.css";
 @import "/components/navigation.css";
-@import "/components/switch.css";
 @import "/components/progress-bar.css";
 @import "/components/header.css";
 @import "/components/about.css";
 @import "/components/projects.css";
 @import "/components/contact.css";
 @import "/components/footer.css";
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
